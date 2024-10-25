@@ -11,15 +11,22 @@ const router = express.Router();
 router.post('/register', async (req, res) => {
     const { nombre, correo, celular, contraseña } = req.body;
 
+    // Validación básica
+    if (!nombre || !correo || !celular || !contraseña) {
+        return res.status(400).json({ message: 'Todos los campos son obligatorios' });
+    }
+
     try {
         const hashedPassword = await bcrypt.hash(contraseña, 10);
         const user = new User({ nombre, correo, celular, contraseña: hashedPassword });
         await user.save();
         res.status(201).json({ message: 'Usuario creado' });
     } catch (error) {
+        console.error(error);
         res.status(500).json({ message: 'Error al crear el usuario', error });
     }
 });
+
 
 // Ruta para inicio de sesión
 router.post('/login', async (req, res) => {
