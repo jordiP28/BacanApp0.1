@@ -32,7 +32,7 @@ function App() {
             <div>
                 {loading ? (
                     <div className="splash-screen">
-                        <img src={logo} alt="Logo" className="./components/imagenes/bacana.png" /> {/* Asegúrate de que la ruta es correcta */}
+                        <img src={logo} alt="Logo" className="./components/imagenes/bacana.png" /> 
                     </div>
                 ) : (
                     <>
