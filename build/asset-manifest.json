@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17dad3c3.css",
-    "main.js": "/static/js/main.21fb720c.js",
+    "main.js": "/static/js/main.6fcbe2e7.js",
     "static/js/453.542fca7a.chunk.js": "/static/js/453.542fca7a.chunk.js",
     "static/media/image (2).png": "/static/media/image (2).77a32c4d6189628047b6.png",
     "static/media/aleta de tiburon.jpg": "/static/media/aleta de tiburon.ff54441e3dbecb748734.jpg",
@@ -37,11 +37,11 @@
     "static/media/ventana.jpg": "/static/media/ventana.2cf1af64fae45797f116.jpg",
     "index.html": "/index.html",
     "main.17dad3c3.css.map": "/static/css/main.17dad3c3.css.map",
-    "main.21fb720c.js.map": "/static/js/main.21fb720c.js.map",
+    "main.6fcbe2e7.js.map": "/static/js/main.6fcbe2e7.js.map",
     "453.542fca7a.chunk.js.map": "/static/js/453.542fca7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17dad3c3.css",
-    "static/js/main.21fb720c.js"
+    "static/js/main.6fcbe2e7.js"
   ]
 }
