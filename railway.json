@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "build": {
+      "env": {
+        "MONGODB_URI": "mongodb+srv://Bacanapp:Jorge123.@cluster0.v39t7.mongodb.net/?retryWrites=true&w=majority",
+        "PORT": "5000"
+      }
+    },
+    "start": {
+      "command": "npm start"
+    }
+  }
+  
